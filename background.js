@@ -3,6 +3,10 @@ chrome.app.runtime.onLaunched.addListener(function() {
 		'outerBounds': {
 			'width': 400,
 			'height': 500,
-		}
+		},
+		'id': 'main',
+		'showInShelf': true,
+		'icon': 'icons/faviconit/favicon-16.png'
+		
 	});
 });
